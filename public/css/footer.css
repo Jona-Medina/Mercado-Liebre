@@ -1,0 +1,49 @@
+#page-footer{
+       background-color: white;
+       padding: 10px;
+       width: 100%;
+}
+
+.footer-text h2{
+       font-size: 18px;
+}
+
+.footer-text p{
+       font-size: 14px;
+}
+
+.footer-article i{
+       color: #0044aa;
+       font-size: 2em;
+       margin-bottom: 10px; 
+       transition: hover, 300ms; 
+}
+
+.footer-article {
+       width: 300px;
+       text-align: center;
+       padding-top: 40px;
+       margin: 0 auto;
+}
+
+.footer-copyright{
+       padding-top: 40px;
+       text-align: left;
+       width: 100%;
+       font-size: 12px;
+       color: #666;
+}
+
+@media (min-width: 1200px) {
+      #page-footer{
+             display: flex;
+             flex-wrap: wrap;
+             flex-direction: row;
+             justify-content: space-around;
+      }
+
+      .footer-article i:hover{
+             color: #EAC926;
+            
+      }
+}

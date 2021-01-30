@@ -1,0 +1,142 @@
+header {
+     background-color: #EAC926;
+     padding: 16px;
+}
+
+#top-header {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+.logo-mercado-liebre {
+     width: 50%;
+     padding-right: 5px;
+     padding-right: 10px;
+}
+
+.search-buttom{
+     display: flex;
+     align-items: center;
+     width: 50%;
+}
+
+.form-search{
+     display: flex;
+     align-items: center;
+     width: 100%;
+}
+
+.imput {
+     background-color: white;
+     border: none;
+     outline: none;
+     color: #666;
+     padding: 5px;
+     font-size: 20px;
+     width: 100%;
+     border-radius: 4px;
+}
+
+
+.submit {
+     background-color: white;
+     border: none;
+     color: #666;
+     padding: 5px;
+     font-size: 20px;
+     border-radius: 4px;
+     margin-left: -10px;
+}
+
+
+.publicidad{
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     align-content: center;
+     padding: 15px 10px;
+}
+
+#top-header p {
+     font-size: 3.5vw;
+}
+
+
+#nav{
+     display: none;
+}
+
+.link-list {
+     list-style-type: none;
+}
+
+.link-list a{
+     color: black;
+     text-decoration: none;
+}
+
+#burger-menu button {
+    
+     background-color:#0044aa;
+     font-size: 20px;
+     color: white;
+     border-radius: 5px;
+     padding: 8px 10px;
+     border: none;
+}
+
+#burger-menu {
+     text-align: center;
+}
+
+
+@media (min-width: 768px) {
+     #nav {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+     }
+
+     .link-list{
+         display: flex;
+         flex-direction: row;
+     }
+
+     .link-item{
+         margin: 0px 10px;
+         font-size: 1vw;
+         padding-top: 10%;
+     }
+
+     #burger-menu{
+         display: none;
+     }
+
+     .logo-mercado-liebre {
+         width: 30%;
+     }
+
+     .search-buttom {
+         width: 30%;
+     }
+    
+     .publicidad{
+         display: flex; 
+         width: 30%;
+         text-align: right;
+         align-items: center;
+     }
+
+     #top-header p {
+         display: flex; 
+         font-size: 1.8vw;
+      }
+
+     #top-header {
+         justify-content: space-around;
+         align-items: center;
+     }
+
+}

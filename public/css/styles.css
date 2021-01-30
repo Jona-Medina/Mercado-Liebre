@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+  }
+
+main{
+    margin: 0 auto;
+    width: 90%;
+    padding: 30px 0px 50px;
+}
+
+.banner img{
+    display: block;
+    width: 100%;
+}
