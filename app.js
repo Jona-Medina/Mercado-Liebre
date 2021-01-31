@@ -4,7 +4,7 @@ const app = express();
 
 port = 3000;
 
-app.listen (process.emv.PORT || port, ()=>{
+app.listen (process.env.PORT || port, ()=>{
      console.log('Servidor corriendo');
 });
 
