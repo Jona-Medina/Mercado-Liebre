@@ -2,9 +2,9 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-port = 3000;
+port = process.env.PORT || '3000';
 
-app.listen( process.env.PORT || port, ()=>{
+app.listen(port, ()=>{
      console.log('Servidor corriendo');
 });
 
